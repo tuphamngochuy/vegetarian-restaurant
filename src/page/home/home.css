@@ -1,3 +1,103 @@
 #intro-container {
-    font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
+  line-height: 2em;
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+  justify-content: space-around;
+  height: 100vh;
 }
+
+#intro-script-container {
+  text-align: center;
+  width: 40%;
+}
+
+#intro-menu-container {
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(220, 238, 245);
+}
+
+#intro-menu-title-container {
+  padding: 50px
+}
+
+#intro-menu-image-list {
+  padding: 0px 20%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px 10px;
+}
+
+.intro-menu-image {
+  height: 100%
+}
+
+.intro-menu-image:hover {
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+
+.intro-menu-image img {
+  height: 100%;
+  width: 100%;
+}
+
+#intro-menu-button-container {
+  padding: 30px;
+}
+
+#intro-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#intro-menu-button-container button {
+  background-color: rgb(220, 238, 245);
+  border: solid 3px rgb(1, 64, 72);
+  width: 100px
+}
+
+#intro-menu-button-container button:hover {
+  width: 130px;
+  opacity: 0.7;
+  transition-duration: 1s;
+}
+
+#intro-reservation-container {
+  height: 100vh;
+  padding-top: 40vh;
+  background-image: url('https://i.imgur.com/yyaflwz.png');
+  text-align: center;
+}
+
+#intro-reservation-container {
+  color: rgb(240, 252, 223);
+}
+
+#intro-reservation-container button {
+  margin: 50px;
+  line-height: 2em;
+  font-size: 1.4em;
+  width: 250px;
+  border: solid 2px rgb(128, 178, 3);
+  background-color: rgb(230, 235, 220);;
+}
+
+#intro-reservation-container button:hover {
+  width: 300px;
+  transition-duration: 1s;
+}
+
+#intro-reservation-button {
+  padding: 0px 30px;
+  width: 100%;
+  color: rgb(180, 214, 87);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
