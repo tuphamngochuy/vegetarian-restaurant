@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vegetarian-restaurant/static/css/main.093c7f3a.css",
+    "main.js": "/vegetarian-restaurant/static/js/main.e54e4c3c.js",
+    "static/js/787.ab46b738.chunk.js": "/vegetarian-restaurant/static/js/787.ab46b738.chunk.js",
+    "index.html": "/vegetarian-restaurant/index.html",
+    "main.093c7f3a.css.map": "/vegetarian-restaurant/static/css/main.093c7f3a.css.map",
+    "main.e54e4c3c.js.map": "/vegetarian-restaurant/static/js/main.e54e4c3c.js.map",
+    "787.ab46b738.chunk.js.map": "/vegetarian-restaurant/static/js/787.ab46b738.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.093c7f3a.css",
+    "static/js/main.e54e4c3c.js"
+  ]
+}
