@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div id="footer-container">
       <div id="footer-title">
-        <h2>Vegetarian Place - The buffet restaurant for vegetarian</h2>
+        <h2>Bliss Mind - The buffet restaurant for vegetarian</h2>
       </div>
       <div id="footer-info-list">
         {

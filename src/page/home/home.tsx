@@ -94,7 +94,7 @@ function IntroMenu() {
   return (
     <div id="intro-menu-container">
       <div id="intro-menu-title-container">
-        <h2>Vegetarian Place Menu</h2>
+        <h2>Bliss Mind Menu</h2>
       </div>
       <div id="intro-menu-image-list">
         {

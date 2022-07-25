@@ -33,7 +33,7 @@ export default function Navbar() {
     <div id="nav-container">
       <div className={wrapperName}>
         <div className="nav-name">
-          Vegeterian Place
+          Bliss Mind
         </div>
           <ul>
             <li className="nav-button nav-line">
