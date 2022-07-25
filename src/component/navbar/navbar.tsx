@@ -8,9 +8,10 @@ import NavMenu from "./navbar-menu";
 
 export default function Navbar() {
   const [scrollYPos, setScrollYPos] = useState(0);
+  const [navMenuState, setNavMenuState] = useState(false);
 
   const menuClick = () => {
-    
+    setNavMenuState(true);
   };
 
   const handleScroll = () => {
@@ -36,14 +37,20 @@ export default function Navbar() {
         </div>
         <div className="nav-button-list">
           <ul>
-            <li className="nav-button">
+            <li className="nav-button nav-line">
               <Link to='/'>Home</Link>
             </li>
-            <li className="nav-button">
+            <li className="nav-button nav-line">
+              <Link to='/space'>About us</Link>
+            </li>
+            <li className="nav-button nav-line">
               <Link to='/menu'>Menu</Link>
             </li>
-            <li className="nav-button">
+            <li className="nav-button nav-line">
               <Link to='/reservation'>Reservation</Link>
+            </li>
+            <li className="nav-button">
+              <Link to='/feedback'>Feedback</Link>
             </li>
           </ul>
         </div>
@@ -51,7 +58,9 @@ export default function Navbar() {
           <button onClick={menuClick}><BsList /></button>
         </div>
       </div>
-      <NavMenu />
+      <div className={`nav-menu-wrapper ${navMenuState === true ? 'nav-menu-show' : 'nav-menu-hide'}`}>
+        <NavMenu />
+      </div>
     </div>
   );
 }

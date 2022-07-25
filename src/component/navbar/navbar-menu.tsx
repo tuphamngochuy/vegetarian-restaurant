@@ -1,3 +1,7 @@
+import {
+  Link
+} from 'react-router-dom';
+
 const menuComponent = [{
   className: 'about',
   name: 'About',
@@ -11,12 +15,12 @@ const menuComponent = [{
 
 export default function NavMenu() {
   return (
-    <div className="nav-menu-wrapper">
+    <div>
       {
         menuComponent.map((obj => {
           return (
             <div className={`menu-item ${obj.className}`}>
-              {obj.name}
+              <Link to={`\\${obj.className === 'about' ? '' : obj.className}`}>{obj.name}</Link>
             </div>
           );
         }))

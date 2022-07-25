@@ -13,6 +13,11 @@
   background-color: rgb(238, 246, 209);
 }
 
+.nav-wrapper a {
+  text-decoration-line: none;
+  color: rgb(125, 157, 9);
+}
+
 .nav-show {
   opacity: 1;
 }
@@ -37,15 +42,15 @@
   margin: 0px 30px;
   height: 100%;
   font-size: 1.2em;
+  padding-right: 50px;
+}
+
+.nav-line {
+  border-right: solid 2px rgb(125, 157, 9);
 }
 
 .nav-button:hover {
   opacity: 0.5;
-}
-
-.nav-button a {
-  text-decoration-line: none;
-  color: rgb(125, 157, 9);
 }
 
 .menu-button button {
@@ -77,7 +82,14 @@
   z-index: 10;
   width: 50%;
   font-size: 1.4em;
+}
+
+.nav-menu-hide {
   transform: translateX(100%);
+}
+
+.nav-menu-show {
+  transform: translateX(0%);
 }
 
 .menu-item {
