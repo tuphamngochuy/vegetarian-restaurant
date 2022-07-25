@@ -35,7 +35,6 @@ export default function Navbar() {
         <div className="nav-name">
           Vegeterian Place
         </div>
-        <div className="nav-button-list">
           <ul>
             <li className="nav-button nav-line">
               <Link to='/'>Home</Link>
@@ -53,7 +52,6 @@ export default function Navbar() {
               <Link to='/feedback'>Feedback</Link>
             </li>
           </ul>
-        </div>
         <div className="menu-button button-visibility">
           <button onClick={menuClick}><BsList /></button>
         </div>

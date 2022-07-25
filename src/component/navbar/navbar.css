@@ -30,7 +30,8 @@
   font-size: 2rem;
 }
 
-.nav-button-list ul {
+.nav-wrapper ul {
+  padding-top: 15px;
   display: flex;
   justify-self: space-around;
   align-items: center;
