@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/veg-res/static/css/main.16af7a85.css",
-    "main.js": "/veg-res/static/js/main.e24063b6.js",
-    "static/js/787.ab46b738.chunk.js": "/veg-res/static/js/787.ab46b738.chunk.js",
-    "index.html": "/veg-res/index.html",
-    "main.16af7a85.css.map": "/veg-res/static/css/main.16af7a85.css.map",
-    "main.e24063b6.js.map": "/veg-res/static/js/main.e24063b6.js.map",
-    "787.ab46b738.chunk.js.map": "/veg-res/static/js/787.ab46b738.chunk.js.map"
+    "main.css": "/vegetarian-restaurant/static/css/main.16af7a85.css",
+    "main.js": "/vegetarian-restaurant/static/js/main.d7dbc9dc.js",
+    "static/js/787.ab46b738.chunk.js": "/vegetarian-restaurant/static/js/787.ab46b738.chunk.js",
+    "index.html": "/vegetarian-restaurant/index.html",
+    "main.16af7a85.css.map": "/vegetarian-restaurant/static/css/main.16af7a85.css.map",
+    "main.d7dbc9dc.js.map": "/vegetarian-restaurant/static/js/main.d7dbc9dc.js.map",
+    "787.ab46b738.chunk.js.map": "/vegetarian-restaurant/static/js/787.ab46b738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16af7a85.css",
-    "static/js/main.e24063b6.js"
+    "static/js/main.d7dbc9dc.js"
   ]
 }
