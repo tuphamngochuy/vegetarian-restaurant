@@ -1,0 +1,42 @@
+#menu-title {
+    width: 100vw;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    z-index: 10;
+}
+
+#menu-title h1 {
+    font-weight: 700;
+    font-size: 4em;
+    color: rgb(249, 249, 249);
+}
+
+#menu-title-image img {
+    width: 1519px;
+    height: 500px;
+}
+
+#menu-content-wrapper {
+    padding: 100px;
+    position: relative;
+    background-color: #FFFCD7;
+}
+
+.menu-content {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.menu-content-lable {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    top: 200px;
+}
+
+.menu-content-lable h3 {
+    font-size: 4em;
+    color: white
+}

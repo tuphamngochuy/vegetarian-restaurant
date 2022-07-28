@@ -1,12 +1,32 @@
-import SLider from "../../component/slide-image/slider";
+import Slider, { SliderInfo} from "../../component/slide-image/slider";
 import { Link } from "react-router-dom";
-
 import './home.css';
+
+const sliderData: SliderInfo = {
+  image: [
+    {
+      src: 'https://i.imgur.com/J2MQ7Uu.jpg',
+      label: 'First slide label',
+      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    }, {
+      src: 'https://i.imgur.com/5BehPdM.jpg',
+      label: 'Second slide label',
+      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    }, {
+      src: 'https://i.imgur.com/kZPpyoF.jpg',
+      label: 'Third slide label',
+      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    }
+  ],
+  width: 1519,
+  height: 719,
+};
+
 export default function Home() {
   return(
     <div id="home-wrapper">
       <div id="slide-wrapper">
-        <SLider />
+        <Slider data={sliderData}/>
       </div>
       <div id="introduction-wrapper">
         <Introduction />
@@ -44,7 +64,7 @@ function Introduction() {
           <p>Sadhu Chay.</p>
         </div>
         <div id="intro-image-container">
-          <img src="https://i.imgur.com/Fy8AVX1.png" alt='' />
+          <img src="https://i.imgur.com/NGxhfHA.jpg" alt='' />
         </div>
       </div>
     )

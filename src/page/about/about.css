@@ -1,0 +1,48 @@
+
+#about-title {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    top: 200px;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+}
+
+#about-title h1 {
+    font-size: 5em;
+    opacity: 1;
+}
+
+#about-image {
+    opacity: 0.7;
+}
+
+#about-image img{
+    height: 500px;
+    width: 1519px;
+}
+
+#about-content-wrapper {
+    display: flex;
+    padding: 40px 10px;
+    align-items: center;
+    
+}
+
+#about-content-wrapper img {
+    width: 47.5vw;
+}
+
+#about-content-wrapper h3 {
+    font-size: 2.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.about-content-image {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+
