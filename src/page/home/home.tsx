@@ -5,18 +5,18 @@ import './home.css';
 const sliderData: SliderInfo = {
   image: [
     {
-      src: 'https://i.imgur.com/J2MQ7Uu.jpg',
-      label: 'First slide label',
-      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+      src: 'https://i.imgur.com/aSsMVJK.jpg',
+      label: '"Veganism is not a "sacrifice". It is a joy."',
+      description: '- GaryLFrancione -',
     }, {
-      src: 'https://i.imgur.com/5BehPdM.jpg',
-      label: 'Second slide label',
-      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+      src: 'https://i.imgur.com/ebZfLox.png',
+      label: '"May all that have life be delivered from suffering."',
+      description: '- Buddha -',
     }, {
-      src: 'https://i.imgur.com/kZPpyoF.jpg',
-      label: 'Third slide label',
-      description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-    }
+      src: 'https://i.imgur.com/xGHZLmP.jpg',
+      label: 'Vegan is just pure love. Love for animals, love for the planet, and love for yourself."',
+      description: '- Mischa Temaul -',
+    },
   ],
   width: 1519,
   height: 719,
@@ -46,22 +46,20 @@ function Introduction() {
       <div id="intro-container">
         <div id="intro-script-container">
           <p>
-          Câu kệ Sadhu (phát âm: sa-du) xuất phát từ ngôn ngữ Ma Kiệt Đà (Pali), 
-          khi dịch sang tiếng Việt có nghĩa là: Lành thay. 
-          Tiếng Sadhu là câu nói mà phật Thích Ca Mâu Ni nói với các Phật Từ lúc phổ độ chúng sinh, 
-          “Lành thay” vì những việc thiện người Phật Tử đã làm, “Lành thay” như một lời khích lệ, tán dương từ Đức Phật. 
-          Sadhu là tiếng ngợi ca thiện sự mỹ mãn, là lời chia sẻ may mắn và bình an tới cho tâm hồn người Phật tử.
+          The idea for Bliss Mind Bistro originated from a love of both 
+          classic vegetarian cooking and vegetarian meals with a contemporary twist. 
+          In addition to spices and herbs, a rich vegetarian cuisine that is infused 
+          with national character is merged with the most distinctive and iconic 
+          elements from cuisines like Thailand, Japan, and China. Bliss Mind Bistro, 
+          located in the center of Vietnam, is happy to offer guests an entirely 
+          new experience in vegetarian cuisine in addition to tasty, wholesome, and healthy food.
           </p>
           <p>
-          Nhà hàng chay Sadhu được tạo nên với mong muốn mang tới những vỗ về, 
-          những may mắn an lành như câu kệ Sadhu cho từng thực khách. 
-          Sadhu Chay hi vọng, thông qua những món ăn chay an lành trong không gian mộc mạc và thanh tĩnh, 
-          sẽ mang tới được những giây phút nghỉ ngơi và thư thái cho mọi thực khách. 
-          Từ đó tiếp thêm năng lượng cho cơ thể và tâm hồn, để mỗi thực khách đều có thể khởi tâm thiện lành, 
-          đón nhận sự bình an từ Đức Phật.
+          Bliss Mind wants to establish a restaurant where customers truly want 
+          to return for reasons other than only religious ones, such as love, health, and the environment.
           </p>
-          <p>Lành thay,</p>
-          <p>Sadhu Chay.</p>
+          <p>Sincerely,</p>
+          <p>Bliss Mind.</p>
         </div>
         <div id="intro-image-container">
           <img src="https://i.imgur.com/NGxhfHA.jpg" alt='' />
@@ -78,20 +76,20 @@ type Menu = {
 
 const menuList: Menu[] = [{
   id: 'food-1',
-  foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodName: 'Beetroot Salad',
+  foodImg: 'https://i.imgur.com/rdqFanJ.jpg',
+}, {
+  id: 'food-1',
+  foodName: 'Vietnamese Spring Rolls',
+  foodImg: 'https://i.imgur.com/Yi5oL5h.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/5m4BAaz.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
-}, {
-  id: 'food-1',
-  foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/33Dkmyy.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',

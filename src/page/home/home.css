@@ -61,7 +61,7 @@
 
 #intro-menu-button-container button {
   background-color: rgb(220, 238, 245);
-  border: solid 3px rgb(1, 64, 72);
+  border: solid 1px rgb(1, 64, 72);
   width: 100px
 }
 

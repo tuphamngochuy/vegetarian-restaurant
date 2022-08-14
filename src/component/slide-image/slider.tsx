@@ -32,8 +32,8 @@ export default function Slider({data}: PropType) {
                 style={{width: `${data.width}px`, height: `${data.height}px`}}
               />
               <Carousel.Caption>
-                <h3>{img.label}</h3>
-                <p>{img.description}</p>
+                <h3 style={{fontSize: '1.6em'}}>{img.label}</h3>
+                <p style={{fontSize: '1.3em'}}>{img.description}</p>
               </Carousel.Caption>
             </Carousel.Item>
           )
