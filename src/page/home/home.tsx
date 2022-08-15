@@ -93,19 +93,19 @@ const menuList: Menu[] = [{
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/gOslD5R.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/Baqhvvb.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/CMNQKHz.jpg',
 }, {
   id: 'food-1',
   foodName: 'Coconut Sweety',
-  foodImg: 'https://i.imgur.com/1Gyhquq.png',
+  foodImg: 'https://i.imgur.com/h5WfhMV.jpg',
 }];
 
 function IntroMenu() {
