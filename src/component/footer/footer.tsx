@@ -1,9 +1,9 @@
 import './footer.css';
 
 const info = [
-  'Vincom Danang, Son Tra Dist', '10 Tran Phu St, Hai Chau Dist',
+  'Address', 'Hotline',
   'Open Daily', 'Facebook',
-  '0123 456 789', '0123 659 899',
+  '12 Yen Bai St, Hai Chau Dist', '0236 3699 888',
   'MON-SUN: 10AM - 22PM', 'Instagram',
 ]
 

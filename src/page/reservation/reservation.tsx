@@ -1,12 +1,9 @@
 import './reservation.css';
-import { BsFillGeoAltFill, BsFillTelephoneFill } from 'react-icons/bs'
+import { BsFillGeoAltFill, BsFillTelephoneFill, BsInstagram, BsFacebook } from 'react-icons/bs'
 
 const locationInfo = [{
   locate: 'Vincom Danang, Son Tra Dist',
   phone: '0123 456 789',
-}, {
-  locate: '10 Tran Phu St, Hai Chau Dist',
-  phone: '0123 659 899',
 }];
 
 export default function Reservation() {
@@ -41,6 +38,17 @@ export default function Reservation() {
               )
             })
           }
+          <div id="reservation-media-label">
+            <h2>Our social media</h2>
+          </div>
+          <div id="reservation-media-content">
+            <div id="reservation-media-facebook" className='reservation-info'>
+              <BsFacebook /> <a href="facebook.com">Facebook</a>
+            </div>
+            <div id="reservation-media-instagram" className='reservation-info'>
+              <BsInstagram /> <a href="instagram.com">Instagram</a>
+            </div>
+          </div>
         </div>
         <div id="reservation-form-wrapper">
           <div id="reservation-form-script">

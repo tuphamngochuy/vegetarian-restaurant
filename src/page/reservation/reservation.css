@@ -67,3 +67,13 @@
 #reservation-form-script button {
     width: 30%;
 }
+
+#reservation-media-label {
+    margin: 20px 0px;
+}
+
+.reservation-info a {
+    font-size: 1.4em;
+    text-decoration-line: none;
+    color: inherit;
+}

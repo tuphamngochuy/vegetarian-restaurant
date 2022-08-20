@@ -29,7 +29,7 @@ export default function Feedback() {
               <input type="checkbox" defaultChecked={checked} onChange={() => setChecked(!checked)}/>
             </div>
             <div className='feedback-checkbox-child'>
-              <p>Feedback without personal information</p>
+              <p>Feedback with personal information</p>
             </div>
           </div>
         </div>

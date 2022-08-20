@@ -23,20 +23,188 @@
     background-color: #FFFCD7;
 }
 
-.menu-content {
-    position: relative;
-    margin-bottom: 10px;
+#menu-content-wrapper img {
+    height: 70vh;
 }
 
-.menu-content-lable {
-    position: absolute;
-    width: 100%;
+#starter-wrapper {
     text-align: center;
-    z-index: 10;
-    top: 200px;
+    margin-left: 100px;
 }
 
-.menu-content-lable h3 {
-    font-size: 4em;
-    color: white
+#starter-content {
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#starter-text {
+    width: 30vw;
+    margin: 10px 80px;
+    font-size: 1.4em;
+}
+
+#starter-image {
+    margin: 20px 50px;
+}
+
+#salad-wrapper {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#salad-content {
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#salad-text {
+    width: 30vw;
+    margin: 10px 80px;
+    font-size: 1.4em;
+}
+
+#salad-image {
+    margin: 20px 50px;
+}
+
+#sushi-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+#sushi-wrapper img {
+    width: 24vw;
+}
+
+#to-share-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+#to-share-wrapper img {
+    width: 24vw;
+}
+
+#must-try-wrapper {
+    text-align: center;
+    margin-left: 100px;
+}
+
+#must-try-content {
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#must-try-text {
+    width: 30vw;
+    margin: 10px 80px;
+    font-size: 1.4em;
+}
+
+#must-try-image {
+    margin: 20px 50px;
+}
+
+#must-try-image img {
+    width: 25vw;
+}
+
+#main-dish-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+#main-dish-wrapper img {
+    width: 24vw;
+}
+
+#pizza-wrapper {
+    text-align: center;
+    margin-left: 100px;
+}
+
+#pizza-content {
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#pizza-text {
+    width: 30vw;
+    margin: 10px 80px;
+    font-size: 1.4em;
+}
+
+#pizza-image {
+    margin: 20px 50px;
+}
+
+#pizza-image img {
+    width: 25vw;
+}
+
+#drink-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+#drink-wrapper img {
+    width: 24vw;
+}
+
+#dessert-wrapper {
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#dessert-content {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#hotpot-wrapper {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#hotpot-content {
+    text-align: justify;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#hotpot-text {
+    width: 30vw;
+    margin: 10px 80px;
+    font-size: 1.4em;
+}
+
+#hotpot-slider {
+    margin: 20px 60px;
+}
+
+#hotpot-slider {
+    width: 25vw;
 }
